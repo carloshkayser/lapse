@@ -42,7 +42,7 @@ python -B -m simulator --dataset datasets/dataset.json --algorithm aels_pa
 python -B -m simulator --dataset datasets/dataset.json --algorithm lapse
 ```
 
-Alternatively, you can run the simulations for the algorithms directly on [MyBinder](https://mybinder.org/v2/gh/carloshkayser/lapse/master?filepath=analysis.ipynb).
+<!-- Alternatively, you can run the simulations for the algorithms directly on [MyBinder](https://mybinder.org/v2/gh/carloshkayser/lapse/master?filepath=analysis.ipynb). -->
 
 ## Manuscript
 

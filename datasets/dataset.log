@@ -1,0 +1,225 @@
+Dataset name: dataset
+Seed: 1000
+
+User positions: [(6, 2), (2, 2), (7, 7), (2, 6), (12, 6), (10, 2), (15, 1), (16, 6)]
+Number of operators by application: [8, 8, 16, 12, 16, 16, 16, 12]
+Applications Processing Latency SLAs: [0.08, 0.1, 0.1, 0.08, 0.1, 0.08, 0.08, 0.1]
+Application types
+	create_linear_application_topology
+	create_linear_application_topology
+	create_linear_application_topology
+	create_linear_application_topology
+	create_linear_application_topology
+	create_linear_application_topology
+	create_linear_application_topology
+	create_linear_application_topology
+Operator input evet size: [{'event_size': 50000, 'event_rate': 5000}, {'event_size': 200000, 'event_rate': 5000}, {'event_size': 50000, 'event_rate': 5000}, {'event_size': 200000, 'event_rate': 5000}, {'event_size': 10000, 'event_rate': 5000}, {'event_size': 50000, 'event_rate': 5000}, {'event_size': 200000, 'event_rate': 5000}, {'event_size': 10000, 'event_rate': 5000}]
+Operator MIPS: [{'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.09, 'mem': 90000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.06, 'mem': 80000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.03, 'mem': 70000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.1, 'mem': 100000000.0}, {'cpu': 0.06, 'mem': 80000000.0}]
+
+Creating linear application Application_1
+	# of operators: 8
+	Delay SLA: 0.08
+Creating linear application Application_2
+	# of operators: 8
+	Delay SLA: 0.1
+Creating linear application Application_3
+	# of operators: 16
+	Delay SLA: 0.1
+Creating linear application Application_4
+	# of operators: 12
+	Delay SLA: 0.08
+Creating linear application Application_5
+	# of operators: 16
+	Delay SLA: 0.1
+Creating linear application Application_6
+	# of operators: 16
+	Delay SLA: 0.08
+Creating linear application Application_7
+	# of operators: 16
+	Delay SLA: 0.08
+Creating linear application Application_8
+	# of operators: 12
+	Delay SLA: 0.1
+
+-> Linear Application 1 
+	Operator 1. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 2. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 3. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 4. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 5. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 6. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 7. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 8. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+
+-> Linear Application 2 
+	Operator 9. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 10. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 11. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 12. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 13. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 14. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 15. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 16. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+
+-> Linear Application 3 
+	Operator 17. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 18. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 19. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 20. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 21. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 22. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 23. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 24. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 25. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 26. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 27. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 28. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 29. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 30. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 31. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 32. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+
+-> Linear Application 4 
+	Operator 33. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 34. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 35. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 36. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 37. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 38. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 39. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 40. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 41. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 42. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 43. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 44. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+
+-> Linear Application 5 
+	Operator 45. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 46. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 47. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 48. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 49. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 50. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 51. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 52. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 53. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 54. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 55. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 56. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 57. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 58. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 59. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 60. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+
+-> Linear Application 6 
+	Operator 61. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 62. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 63. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 64. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 65. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 66. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 67. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 68. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 69. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 70. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 71. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 72. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 73. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 74. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 75. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+	Operator 76. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 50000.0000
+
+-> Linear Application 7 
+	Operator 77. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 78. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 79. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 80. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 81. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 82. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 83. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 84. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 85. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 86. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 87. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 88. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 89. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 90. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 91. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+	Operator 92. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 200000.0000
+
+-> Linear Application 8 
+	Operator 93. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 94. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 95. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 96. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 97. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 98. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 99. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 100. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 101. MIPS 0.0600. Mem 80000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 102. MIPS 0.0900. Mem 90000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 103. MIPS 0.0300. Mem 70000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+	Operator 104. MIPS 0.1000. Mem 100000000.0000. Event Rate 5000.0000. Event Size 10000.0000
+
+
+##########################
+#### DATASET ANALYSIS ####
+##########################
+
+==== SENSORS POSITIONS ====
+Sensors: 8
+	Application_1. Sensor 1. Position: (6, 2).
+	Application_2. Sensor 2. Position: (2, 2).
+	Application_3. Sensor 3. Position: (7, 7).
+	Application_4. Sensor 4. Position: (2, 6).
+	Application_5. Sensor 5. Position: (12, 6).
+	Application_6. Sensor 6. Position: (10, 2).
+	Application_7. Sensor 7. Position: (15, 1).
+	Application_8. Sensor 8. Position: (16, 6).
+
+==== SINK POSITIONS ====
+Sinks: 8
+	Application_1. Sink 8. EdgeServer_7. Position: (2, 4).
+	Application_2. Sink 16. EdgeServer_19. Position: (7, 3).
+	Application_3. Sink 32. EdgeServer_7. Position: (2, 4).
+	Application_4. Sink 44. EdgeServer_22. Position: (7, 7).
+	Application_5. Sink 60. EdgeServer_4. Position: (10, 4).
+	Application_6. Sink 76. EdgeServer_9. Position: (14, 4).
+	Application_7. Sink 92. EdgeServer_8. Position: (12, 2).
+	Application_8. Sink 104. EdgeServer_15. Position: (16, 4).
+
+==== APPLICATIONS OVERVIEW ====
+
+Applications: 8
+	# of Operators: 104
+	# of Applications by Chain Size: {8: 2, 16: 4, 12: 2}
+	# of SLAs by Chain Size: {0.08: 4, 0.1: 4}
+
+==== INFRASTRUCTURE OCCUPATION OVERVIEW ====
+
+Edge Servers: 25
+	CPU Capacity: 77500
+	RAM Capacity: 1376256
+
+Services: 104
+	CPU Demand: 36400.0
+	RAM Demand: 56240.0
+
+Overall Occupation
+	CPU: 36400.0. Percentage: 47.0%
+	RAM: 56240.0. Percentage: 4.1%
+
+==== NETWORK DISTANCE (DELAY) BETWEEN USERS AND EDGE SERVERS ====
+
+{'object': User_1, 'sla': 0.08, 'min': 0.02, 'max': 0.09999999999999999, 'avg': 0, 'delays': {0.02: 2, 0.03: 4, 0.04: 1, 0.05: 6, 0.060000000000000005: 2, 0.07: 2, 0.08: 4, 0.08999999999999998: 1, 0.09000000000000001: 2, 0.09999999999999999: 1}}
+{'object': User_2, 'sla': 0.1, 'min': 0.01, 'max': 0.13, 'avg': 0, 'delays': {0.01: 1, 0.02: 3, 0.04: 2, 0.05: 3, 0.060000000000000005: 2, 0.06999999999999999: 2, 0.07: 1, 0.08: 3, 0.09000000000000001: 2, 0.09999999999999999: 1, 0.1: 2, 0.10999999999999999: 1, 0.11: 1, 0.13: 1}}
+{'object': User_3, 'sla': 0.1, 'min': 0, 'max': 0.11000000000000001, 'avg': 0, 'delays': {0: 1, 0.02: 2, 0.03: 2, 0.04: 3, 0.05: 4, 0.060000000000000005: 2, 0.07: 4, 0.08: 2, 0.09: 1, 0.09000000000000001: 2, 0.09999999999999999: 1, 0.11000000000000001: 1}}
+{'object': User_4, 'sla': 0.08, 'min': 0.01, 'max': 0.13, 'avg': 0, 'delays': {0.01: 1, 0.02: 2, 0.03: 2, 0.04: 1, 0.05: 2, 0.06: 2, 0.060000000000000005: 2, 0.07: 1, 0.08: 3, 0.09: 1, 0.09000000000000001: 3, 0.1: 3, 0.11: 1, 0.13: 1}}
+{'object': User_5, 'sla': 0.1, 'min': 0, 'max': 0.10999999999999999, 'avg': 0, 'delays': {0: 1, 0.02: 3, 0.03: 2, 0.04: 3, 0.05: 4, 0.06: 2, 0.060000000000000005: 2, 0.06999999999999999: 1, 0.07: 2, 0.08: 2, 0.08999999999999998: 1, 0.09: 1, 0.10999999999999999: 1}}
+{'object': User_6, 'sla': 0.08, 'min': 0.01, 'max': 0.09000000000000001, 'avg': 0, 'delays': {0.01: 1, 0.02: 4, 0.03: 3, 0.04: 2, 0.05: 4, 0.06: 1, 0.060000000000000005: 4, 0.06999999999999999: 1, 0.07: 3, 0.08: 1, 0.09000000000000001: 1}}
+{'object': User_7, 'sla': 0.08, 'min': 0, 'max': 0.12999999999999998, 'avg': 0, 'delays': {0: 1, 0.01: 1, 0.02: 2, 0.03: 1, 0.04: 3, 0.05: 1, 0.060000000000000005: 4, 0.06999999999999999: 1, 0.08: 2, 0.08999999999999998: 1, 0.09: 2, 0.09000000000000001: 2, 0.09999999999999999: 1, 0.1: 1, 0.10999999999999997: 1, 0.12999999999999998: 1}}
+{'object': User_8, 'sla': 0.1, 'min': 0, 'max': 0.12999999999999998, 'avg': 0, 'delays': {0: 1, 0.01: 1, 0.03: 3, 0.05: 3, 0.060000000000000005: 3, 0.06999999999999999: 1, 0.07: 2, 0.08: 3, 0.08999999999999998: 1, 0.09: 1, 0.09999999999999999: 3, 0.1: 1, 0.10999999999999999: 1, 0.12999999999999998: 1}}
+
+Maximum aggregated delay between nodes: 0.15
+Minimum aggregated delay between sensor and edge server: 0
+Maximum aggregated delay between sensor and edge server: 0.13

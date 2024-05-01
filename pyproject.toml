@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "lapse"
+version = "1.0.0"
+description = "Lapse: Latency & Power-Aware Placement of Data Stream Applications on Edge Computing"
+authors = ["Carlos Kayser <carlos.kayser@edu.pucrs.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.9.1"
+edge-sim-py = {git = "https://github.com/EdgeSimPy/EdgeSimPy", rev = "v1.1.0"}
+Cython = "^0.29.32"
+scikit-learn = "1.0"
+seaborn = "^0.12.1"
+matplotlib = "3.5.3"
+numpy = "1.23"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+ipykernel = "^6.16.0"
+pylint = "2.12.0"
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^22.8.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 135
